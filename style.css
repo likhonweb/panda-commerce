@@ -1,6 +1,61 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "poppins" , sans-serif;
+.container{
+    margin-bottom: 100px;
+}
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #ff136f 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.cat-1, .cat-2, .cat-3{
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.cat-1{
+    background-image: linear-gradient(to right, #FFB22C, #ffe15b);
+}
+.cat-2{
+    background-image: linear-gradient(to right, #874CCC, #C65BCF);
+}
+.cat-3{
+    background-image: linear-gradient(to right, #4C3BCF, #4B70F5);
+}
+.likh{
+    margin-bottom: 15px;
+}
+.categories h1{
+    color: #fff;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+footer{
+    text-align: center;
+    color: rgba(23, 23, 23, 0.751);
+}
+.likhon{
+    margin-bottom: 8px;
 }
